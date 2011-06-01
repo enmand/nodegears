@@ -9,6 +9,6 @@
 		"type": "git",
 		"url": "https://github.com/velsoft/gearnode",
 	},
-	"dependencies": {"binary": ">=0"},
+	"dependencies": {"buffers": ">=0"},
 	"devDependencies: {"nodeunit": ">=0"}
 }
