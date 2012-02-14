@@ -1,4 +1,4 @@
-# GearNode
+# NodeGears
 
 A Gearman Worker/Client library for NodeJS
 
@@ -8,9 +8,15 @@ A Gearman Worker/Client library for NodeJS
 
 The Put module is required for interacting with binary packets going to and from the Job Server. You can install it using [NPM](http://npmjs.org/) with `npm install put` in a module directory the Gearman module can see.
 
-## Using GearNode
+## Using NodeGears
 
-To use GearNode, you must have NodeJS installed, and a working Gearman Job Server somewhere available to you.
+To use NodeGears, you must have NodeJS installed, and a working Gearman Job Server somewhere available to you.
+
+## Installing NodeGears
+
+To install NodeGears from NPM, run
+
+	npm install nodegears
 
 ### Creating a worker
 
