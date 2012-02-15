@@ -7,7 +7,7 @@
 		"name": "Daniel Enman",
 		"email": "enmand@gmail.com"
 	},
-	"main": "lib/nodegears.js",
+	"main": "nodegears",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/enmand/nodegears"
