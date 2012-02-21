@@ -6,7 +6,7 @@ _client.submit('lowerCase', 'WHAT A GREAT LIBRARY!', "normal", false, function(d
 });
 
 _worker = new nodegears.Worker();
-_worker.register('lowerCase', function(_workload)
+_worker.register('lowerCase', function(_workload, assign)
 {
-	return _workload.toLowerCase();
+	assign(_workload.toLowerCase());
 });

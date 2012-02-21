@@ -29,9 +29,11 @@ To create a worker that will talk to the job server on `localhost`, use
 
 Once you have a worker that is connected and initialized, use the `submit` method to tell the job server the worker can do a specific task.
 
-    _worker.register('some_function', function(_workload){return 'some response';});
+    _worker.register('some_function', function(_workload, assign){assign('some response');});
 
-The first parameter in the register function is the name of the function the worker can do (the client must request work using this name), and the second is the callback that actually preforms the required work. If the callback returns something, and the job server is expecting a response, the `return`ed information will be sent back to the client.
+The first parameter in the register function is the name of the function the worker can do (the client must request work using this name), and the second is the callback that actually preforms the required work. The callback accepts the worker's result and sends it to the job server in tesponse, the returned information will be sent back to the client.
+
+If your function doesn't use the `assign` callback function, no data will be sent back to the client after the `JOB_ASSIGN` packet is recieved.
 
 ### Creating a client
 
