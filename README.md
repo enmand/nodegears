@@ -1,6 +1,6 @@
 # NodeGears
 
-A Gearman Worker/Client library for NodeJS
+A Gearman Worker/Client library for Node.JS 0.6
 
 ## Modules Required
 
