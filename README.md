@@ -1,6 +1,6 @@
 # NodeGears
 
-A Gearman Worker/Client library for NodeJS
+A Gearman Worker/Client library for Node.JS 0.6
 
 ## Modules Required
 
@@ -22,7 +22,7 @@ To install NodeGears from NPM, run
 
 To create a worker that will talk to the job server on `localhost`, use
 
-    var Worker = require('worker.js').Worker;
+    var Worker = require('nodegears').Worker;
     _worker = new Worker();
 
 ### Registering a job for the Worker
@@ -39,7 +39,7 @@ If your function doesn't use the `assign` callback function, no data will be sen
 
 Once a worker has been registered to do some work for the job server, a client must be used to request work, and send some workload to be worked on. To create a client that will talk to the job server on `localhost`, use
 
-    var Client = require('client.js').Client;
+    var Client = require('nodegears').Client;
     _client = new Client();
 
 ### Submitting work to be completed
