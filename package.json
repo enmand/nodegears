@@ -1,6 +1,6 @@
 {
 	"name": "nodegears",
-	"version": "v0.6.0",
+	"version": "v0.6.1",
 	"description": "NodeJS bindings for Gearman",
 	"keywords": ["gearman", "distributed", "jobs", "workers", "client", "async", "gearnode", "gears", "messages"],
 	"author": {
