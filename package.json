@@ -1,8 +1,20 @@
 {
 	"name": "nodegears",
-	"version": "v0.6.1",
+	"version": "v0.7",
 	"description": "NodeJS bindings for Gearman",
-	"keywords": ["gearman", "distributed", "jobs", "workers", "client", "async", "gearnode", "gears", "messages"],
+	"keywords": [
+		"gearman",
+		"distributed",
+		"jobs",
+		"workers",
+		"client",
+		"async",
+		"gearnode",
+		"gears",
+		"messages",
+		"work server",
+		"data management"
+	],
 	"author": {
 		"name": "Daniel Enman",
 		"email": "enmand@gmail.com"
