@@ -1,6 +1,6 @@
 {
 	"name": "nodegears",
-	"version": "v0.7.0",
+	"version": "v0.7.1",
 	"description": "NodeJS bindings for Gearman",
 	"keywords": [
 		"gearman",
